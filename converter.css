@@ -1,0 +1,131 @@
+.hidden {
+  visibility: hidden;
+}
+
+.input {
+  width: 100%;
+  color: #000000;
+}
+
+.button1 {
+  background-color: #790400;
+  border-radius: 50px;
+  height: 200px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+}
+
+.button2 {
+  background-color: #B29A00;
+  border-radius: 50px;
+  height: 200px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+}
+
+.button3 {
+  background-color: #0F8000;
+  border-radius: 50px;
+  height: 200px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+}
+
+.button4 {
+  background-color: #007A93;
+  border-radius: 50px;
+  height: 200px;
+  width: 300px;
+  color: white;
+  font-weight: 100;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 32px;
+  margin: 4px 2px;
+}
+
+.button5 {
+  background-color: #A7A7A7;
+  border-radius: 50px;
+  height: 80px;
+  width: 100px;
+  color: white;
+  font-weight: 100;
+  font-size: 10pt;
+  padding: 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+}
+
+.jabox{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #790400;
+  padding: 10px;
+}
+
+.jabox > div{
+  background: #585858;
+  padding: 1em;
+}
+
+.jsbox{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #B29A00;
+  padding: 10px;
+}
+
+.jsbox > div{
+  background: #585858;
+  padding: 1em;
+}
+
+.pybox{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #0F8000;
+  padding: 10px;
+}
+
+.pybox > div{
+  background: #585858;
+  padding: 1em;
+}
+
+.cbox{
+  margin: auto;
+  width: 50%;
+  border: 3px solid #007A93;
+  padding: 10px;
+}
+
+.cbox > div{
+  background: #585858;
+  padding: 1em;
+}

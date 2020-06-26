@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+    <script
+  src="https://code.jquery.com/jquery-3.5.1.js"
+  integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc="
+  crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="discover.css">
+  </head>
+  <body>
+
+    <body style="background-color: #444444;">
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg navbar-light bg-light sticky-top  ">
+
+   <!-- <a class="navbar-brand" href="#"> -->
+     <!-- <img src="https://i.pinimg.com/originals/c4/ac/27/c4ac2779fe7af9d8ca32d226f5c30cb2.jpg" width="30" height="30" alt="" loading="lazy"> -->
+   <!-- </a> -->
+      <a class="navbar-brand" href="#">Quick Code</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="/Users/aaditya/Desktop/SE2020hackathon/index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="/Users/aaditya/Desktop/SE2020hackathon/discover.html">Discover</a>
+          </li>
+          <li class="nav-item active">
+            <a class="nav-link" href="converter.html">Converter</a>
+          </li>
+
+
+        </ul>
+
+
+      </div>
+
+    </nav>
+<br><br><br>
+<h1>CHOOSE THE LANGUAGES</h1>
+<br>
+<h3>Double click to choose the first language(blue). Single click to choose the second language(red).</h3>
+<p>follow the above order for proper results</p>
+<br><br>
+<table>
+  <tr>
+
+
+<td><button  id="btn1" class="btn" type="button" name="button">C++</button></td>
+<td><button  id="btn2" class="btn" type="button" name="button">JAVA</button></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+  <td></td>
+  <td></td>
+</tr>
+<tr>
+
+
+<td><button   class="btn" type="button" name="button">JAVASCRIPT</button></td>
+
+<td><button   class="btn" type="button" name="button">PYTHON</button></td>
+
+</tr>
+
+</table>
+<br><br><br><br>
+
+<button type="button" id="check" name="button">Check which languges you have chosen</button>
+<br><br><br><br>
+<h2>CHOOSE THE CONCEPT</h2>
+<br>
+<h4>CLICK ON THE CONCEPT AND GET THE SYNTAX COMPARISION. HOVER OVER THE TEXT FOR 2 SECCONDS TO GET INFORMATION ABOUT THE CONCEPT</h4>
+<br><br><br><br>
+<ul class="list-group">
+  <li id="commentcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Comments are crucial for internally documenting code. By using either single line or double line comments, they can explain what a chunk of code is doing for others.
+">Comment</li>
+  <li id="datatypecode" class="list-group-item" data-toggle="tooltip" data-placement="right" title=" Different languages have different ways of showing data types. Different data types interact in different ways (e.g. a String behaves differently than an int).">Data Type</li>
+  <li id="concatcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="This is an easy way to add variable values together within string. This allows you to reuse variables rather than manually typing out a value (also helps when you don’t know what a variables value is immediately).">Concatentation</li>
+  <li id="airthmeticcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="These are your simple math operators that can be demonstrated through code.">Arithmetic</li>
+  <li id="booleancode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="These are what allow you to make condition statements more in-depth.">Boolean</li>
+  <li id="inputcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="This is how you receive user input" >Input</li>
+  <li id="printcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title=" This is how you print out information to the console">Print</li>
+  <li id="printvcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title=" This is how you print a stored variable value">Print Variable</li>
+  <li id="reassigncode" class="list-group-item" data-toggle="tooltip" data-placement="right" title=" Reassigning variables is important in case a value needs to be updated. Here are ways different languages reassign values to variables.">Reassign</li>
+  <li id="declarecode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Before using a variable, it must be assigned to a value and declared. ">Declaring</li>
+  <li id="loopcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Loops are a good and efficient way to do a similar task over and over again">Loops</li>
+  <li id="listcode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="Lists and arrays are good ways to store information within one object. ">Lists/Array</li>
+  <li id="ifelsecode" class="list-group-item" data-toggle="tooltip" data-placement="right" title="By using boolean operators, if/else statements allow for superior control flow within a program.">If else</li>
+  <li id="functioncode" class="list-group-item" data-toggle="tooltip" data-placement="right" title=" Functions can be self made and used within a program. They contain code that will be run when the function is called on. ">Function</li>
+
+</ul>
+
+<br><br>
+<h2 class="dispoutput">CLICK ME TO CHECK THE OUTPUT</h2>
+
+
+<script src="discover.js" charset="utf-8"></script>
+  </body>
+</html>
